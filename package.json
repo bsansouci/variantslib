@@ -1,0 +1,17 @@
+{
+  "name": "variantslib",
+  "version": "0.0.1",
+  "description": "Part of Jane Street's Core library",
+  "license": "Apache-2.0",
+  "jengaboot": {
+    "ppxFlag": "ppx-jane -as-ppx -inline-test-lib core -inline-test-drop -bench-drop"
+  },
+  "devDependencies": {
+    "jengaboot": "git://github.com/bsansouci/jengaboot.git#tmp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsansouci/variantslib.git"
+  },
+  "author": "Jane Street Group, LLC <opensource@janestreet.com>"
+}
